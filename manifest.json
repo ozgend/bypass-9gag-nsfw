@@ -1,0 +1,32 @@
+{
+   "author": "denolk",
+   "content_scripts": [ {
+      "js": [  "js/jquery.js","js/do_BypassGagNsfw.js" ],
+	  "matches": [ "http://9gag.com/*", "https://9gag.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "9GAG NSFW bypass without account",
+   "icons": {
+      "128": "img/icon128.png",
+      "48": "img/icon48.png",
+      "38": "img/icon38.png",
+	  "19": "img/icon19.png"
+   },
+   "manifest_version": 2,
+   "name": "9GAG NSFW Bypass",
+   "short_name": "9GAG NSFW Bypass",
+   "permissions": [ "http://9gag.com/", "https://9gag.com/*" ],
+   "browser_action": {
+        "default_icon": {                    
+            "19": "img/icon19.png", 
+			"19_on": "img/icon19_on.png", 
+			"19_off": "img/icon19_off.png", 
+			"38": "img/icon38.png",  
+			"38_on": "img/icon38_on.png",
+			"38_off": "img/icon38_off.png"           
+        },
+        "default_title": "9GAG NSFW Bypass"
+    },
+   "web_accessible_resources": [ "img/*.png" ],
+   "version": "0.2.1"
+}
