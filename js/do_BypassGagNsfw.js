@@ -5,7 +5,7 @@ var $ = jQuery;
 
 var bypass9GagNsfw = {
 
-    _baseUrl: 'http://d24w6bsrhbeh9d.cloudfront.net/photo/',
+    _baseUrl: 'http://img-9gag-fun.9cache.com/photo/',
     _icon128Url: '',
     _enabled: false,
 
