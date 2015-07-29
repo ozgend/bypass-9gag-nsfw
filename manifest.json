@@ -28,5 +28,5 @@
         "default_title": "9GAG NSFW Bypass"
     },
    "web_accessible_resources": [ "img/*.png" ],
-   "version": "0.2.3"
+   "version": "0.2.6"
 }
