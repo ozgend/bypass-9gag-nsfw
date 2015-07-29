@@ -50,7 +50,7 @@ var bypass9GagNsfw = {
 		
         $nsfwLink.parent().append($element);
         $nsfwLink.parents('article').addClass('bypass9GagNsfw'); // any identifier, will be used later implementations
-        $nsfwLink.hide();
+        $nsfwLink.remove();
     },
 	
 	
